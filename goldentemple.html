@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Temple - Travel Blog</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            animation: slideInDown 1s ease-out; /* Apply slide-in animation */
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Destination section styles */
+        .destination-section {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            animation: slideInUp 1s ease-out; /* Apply slide-in animation */
+        }
+
+        /* Image styles */
+        .destination-section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Destination content styles */
+        .destination-content {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .destination-content h2 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .destination-content p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            animation: bounce 1s ease-out; /* Apply bounce animation */
+        }
+
+        /* Slide-in animation */
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Bounce animation */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Golden Temple</h1>
+    </header>
+
+    <div class="container">
+        <section class="destination-section">
+            <!-- Image of Golden Temple -->
+            <img src="https://i.pinimg.com/736x/de/f2/f5/def2f5e56c07822c6ebf736f7e0e0312.jpg" alt="Golden Temple">
+
+            <!-- Description of Golden Temple -->
+            <div class="destination-content">
+                <h2>About the Golden Temple</h2>
+                <p>The Golden Temple, also known as Sri Harmandir Sahib, is a Gurdwara located in the city of Amritsar, Punjab, India. It is one of the most revered spiritual sites for Sikhs and one of the most visited religious places in the world. The temple's stunning architecture, surrounded by a sacred pool, attracts pilgrims and tourists alike.</p>
+                <p><strong>Ideal Duration:</strong> 1 Day</p>
+                <p><strong>Nearest City:</strong> Amritsar</p>
+                <p><strong>Distance From Hyderabad:</strong>662 km </p>
+                <p><strong>Peak Season:</strong> October to March</p>
+                <p><strong>State:</strong> Punjab</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Created by CHERUKURI JAMUNA | &copy; 2024 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

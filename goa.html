@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa - Travel Blog</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            animation: slideInDown 1s ease-out; /* Apply slide-in animation */
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Destination section styles */
+        .destination-section {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            animation: slideInUp 1s ease-out; /* Apply slide-in animation */
+        }
+
+        /* Image styles */
+        .destination-section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Destination content styles */
+        .destination-content {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .destination-content h2 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        .destination-content p {
+            margin-bottom: 10px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            animation: bounce 1s ease-out; /* Apply bounce animation */
+        }
+
+        /* Slide-in animation */
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Bounce animation */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Goa</h1>
+    </header>
+
+    <div class="container">
+        <section class="destination-section">
+            <!-- Image of Goa -->
+            <img src="https://c4.wallpaperflare.com/wallpaper/681/591/749/goa-4k-india-palms-wallpaper-preview.jpg" alt="Goa">
+
+            <!-- Description of Goa -->
+            <div class="destination-content">
+                <h2>About Goa</h2>
+                <p>Goa is a state located in the western region of India, on the coast of the Arabian Sea. Renowned for its beautiful beaches, vibrant nightlife, and Portuguese heritage, Goa attracts tourists from all over the world. The state is also known for its delicious cuisine, water sports activities, and historic churches and forts.</p>
+                <p><strong>Ideal Duration:</strong> 4 to 7 Days</p>
+                <p><strong>Nearest City:</strong> Panaji</p>
+                <p><strong>Distance From Hyderabad:</strong> 675 km </p>
+                <p><strong>Peak Season:</strong> October to January</p>
+                <p><strong>State:</strong> Goa</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Created by CHERUKURI JAMUNA | &copy; 2024 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
